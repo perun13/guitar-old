@@ -1,0 +1,111 @@
+header {
+  width: 100%;
+  background-color: #242424;
+  border-bottom: 1px solid #414141;
+}
+
+header .header {
+  max-width: 1333px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 34px;
+}
+
+header .header .your_city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 13px;
+}
+
+header .header .your_city p {
+  color: gray;
+}
+
+header .header .your_city .city {
+  color: #e4e4e4;
+  margin-left: 10px;
+}
+
+header .header .logo_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 261px;
+  position: relative;
+  left: 108px;
+}
+
+header .header .logo_list img {
+  margin-right: 22px;
+}
+
+header .header .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header .number .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header .number .text p {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 14px;
+  margin-left: 8px;
+  color: #e4e4e4;
+}
+
+@media (max-width: 768px) {
+  header .header .your_city p {
+    display: none;
+  }
+  header .header .your_city .city {
+    display: block;
+    color: #5c5c5c;
+    font-size: 12px;
+    z-index: 7;
+  }
+  header .header .logo_list {
+    display: none;
+  }
+  header .header .number .text p {
+    color: #5c5c5c;
+    font-size: 12px;
+  }
+  header .header .number .time {
+    display: none;
+  }
+}

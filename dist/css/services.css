@@ -1,0 +1,182 @@
+.services.__active {
+  height: 100%;
+  width: auto;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.services {
+  position: fixed;
+  left: 0%;
+  top: 0;
+  height: 0%;
+  width: 0;
+  overflow: hidden;
+  z-index: 10;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.services .content {
+  width: 720px;
+  height: 100%;
+  background: #131218;
+  padding-left: 108px;
+  padding-top: 54px;
+}
+
+.services .content .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .content .head .close {
+  margin-right: 38px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.services .content .head .close .top {
+  height: 2px;
+  width: 17px;
+  background-color: white;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+
+.services .content .head .close .bottom {
+  height: 2px;
+  width: 17px;
+  background-color: white;
+  -webkit-transform: rotate(132deg) translate(-1px, 1px);
+          transform: rotate(132deg) translate(-1px, 1px);
+}
+
+.services .content .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 56px;
+}
+
+.services .content .text .left {
+  border-right: 2px solid white;
+  height: 579px;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+.services .content .text .left h1 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Abhaya Libre', serif;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.services .content .text .left .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  width: 174px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services .content .text .left .item a {
+  font-size: 14px;
+  color: white;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.services .content .text .left .item .arrow .top {
+  height: 2px;
+  width: 17px;
+  background: white;
+  -webkit-transform: rotate(29deg);
+          transform: rotate(29deg);
+}
+
+.services .content .text .left .item .arrow .bottom {
+  height: 2px;
+  width: 17px;
+  background: white;
+  -webkit-transform: translate(0px, 6px) rotate(-40deg);
+          transform: translate(0px, 6px) rotate(-40deg);
+}
+
+.services .content .text .right.__active {
+  width: 233px;
+  height: auto;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.services .content .text .right {
+  margin-left: 36px;
+  padding-top: 40px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.services .content .text .right h1 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Abhaya Libre', serif;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.services .content .text .right p {
+  color: white;
+  font-size: 14px;
+  font-family: 'ABeeZee', sans-serif;
+  line-height: 25px;
+}
+
+.services .content .text .back {
+  margin-right: 38px;
+  padding-top: 40px;
+}
+
+.services .content .text .back .top {
+  height: 2px;
+  width: 17px;
+  background-color: white;
+  -webkit-transform: rotate(-32deg);
+          transform: rotate(-32deg);
+  border-radius: 5px;
+}
+
+.services .content .text .back .mid {
+  height: 2px;
+  width: 30px;
+  background-color: white;
+  -webkit-transform: translate(0px, 3px);
+          transform: translate(0px, 3px);
+  border-radius: 5px;
+}
+
+.services .content .text .back .bottom {
+  height: 2px;
+  width: 17px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-transform: rotate(25deg) translate(2px, 5px);
+          transform: rotate(25deg) translate(2px, 5px);
+}
