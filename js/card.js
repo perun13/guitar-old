@@ -27,7 +27,7 @@ new Swiper('.swiper-2', {
             slidesPerView: 1,
             slidesPerGroup: 1,
         }
-    }
+    },
 
 });
 

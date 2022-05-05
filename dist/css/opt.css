@@ -190,8 +190,8 @@ body {
   margin-left: 13px;
 }
 
-.send_massege .inp .massege input {
-  padding-left: 39px;
+.send_massege .inp .massege textarea {
+  padding-left: 30px;
   border: white solid 1px;
   border-radius: 10px;
   background: #242424;
@@ -203,6 +203,8 @@ body {
   color: white;
   opacity: 60%;
   margin-bottom: 9px;
+  padding-top: 10px;
+  padding-right: 30px;
 }
 
 .send_massege .inp .massege .btn {

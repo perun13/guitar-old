@@ -367,10 +367,6 @@ body {
   width: 1000px;
 }
 
-.box_3 .content .swiper-wrapper {
-  width: 930px;
-}
-
 .box_3 .content .swiper-wrapper .swiper-slide {
   width: 220px !important;
 }
@@ -696,9 +692,6 @@ body {
   }
   .box_3 .content .swiper-2 {
     width: 290px;
-  }
-  .box_3 .content .swiper-2 .swiper-wrapper {
-    overflow: hidden;
   }
   .box_3 .content .swiper-2 .swiper-slide {
     width: 240px !important;

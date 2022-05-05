@@ -13,6 +13,10 @@ body {
   background: #242424;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .box_1 {
   height: 167px;
   max-width: 1055px;

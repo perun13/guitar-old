@@ -12,8 +12,9 @@ new Swiper('.swiper-2', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-
+    slidesPerView: 3,
     spaceBetween: 25,
+    slidesPerGroup: 3,
 
 });
 

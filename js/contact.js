@@ -13,9 +13,9 @@ new Swiper('.swiper-2', {
         prevEl: '.swiper-button-prev',
     },
 
-    slidesPerViev: 3,
+    slidesPerView: 4,
     spaceBetween: 25,
-
+    slidesPerGroup: 4,
 });
 
 
