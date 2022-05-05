@@ -26,6 +26,14 @@ new Swiper('.swiper-2', {
         425: {
             slidesPerView: 1,
             slidesPerGroup: 1,
+        },
+        414: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        375: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
         }
     }
 

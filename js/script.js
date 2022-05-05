@@ -35,11 +35,24 @@ new Swiper('.swiper-2', {
 
 
     breakpoints: {
+
+        1024: {
+            slidesPerView: 3,
+            slidesPerGroup: 4,
+        },
         768: {
             slidesPerView: 2,
             slidesPerGroup: 2,
         },
         425: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        414: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        },
+        375: {
             slidesPerView: 1,
             slidesPerGroup: 1,
         }

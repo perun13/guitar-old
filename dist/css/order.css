@@ -438,6 +438,17 @@ body {
 }
 
 .order .left .contact_info .message {
+  color: white;
+  padding-left: 26px;
+  padding-right: 26px;
+  border-radius: 5px;
+  padding-top: 10px;
+  border: 1px solid white;
+  background: #242424;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 14px;
+  width: 461px;
+  margin-top: 8px;
   height: 142px;
   padding-bottom: 85px;
 }
@@ -826,6 +837,9 @@ body {
   .order .content .left .contact_info input {
     width: 370px;
   }
+  .order .content .left .contact_info .message {
+    width: 370px;
+  }
   .order .content .left .sale {
     margin-top: 60px;
   }
@@ -860,6 +874,9 @@ body {
     margin-right: 10px;
   }
   .order .left .contact_info input {
+    width: 325px !important;
+  }
+  .order .left .contact_info .message {
     width: 325px !important;
   }
   .order .left .sale p {
