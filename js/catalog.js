@@ -111,38 +111,6 @@ if (headerBurger) {
 
 
 
-let btnServices = document.querySelector('.btn_services');
-let serviceForm = document.querySelector('.services');
-let closeServices = document.querySelector('#close_services');
-let openForm = document.querySelector(".open_form");
-let servicesRight = document.querySelector('#services_right');
-
-btnServices.onclick = () => {
-    serviceForm.classList.toggle('__active');
-};
-
-closeServices.onclick = () => {
-    serviceForm.classList.remove('__active');
-    servicesRight.classList.remove('__active');
-};
-
-openForm.onclick = () => {
-    servicesRight.classList.toggle('__active');
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let card = document.querySelector('#btn_card');
 let follow = document.querySelector('#btn_follow');
 
@@ -152,7 +120,7 @@ card.onclick = () => {
 
 follow.onclick = () => {
     window.location.href = 'https://perun13.github.io/guitar/favorite';
-}
+};
 
 
 
@@ -172,8 +140,8 @@ let searchBtn = document.querySelector('#search');
 
 searchBtn.onclick = () => {
     searchForm.classList.toggle('__active');
-}
+};
 
 closeSearchForm.onclick = () => {
     searchForm.classList.remove('__active');
-}
+};

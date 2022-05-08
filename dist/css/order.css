@@ -885,6 +885,9 @@ body {
   .order .left .sale #btn_buy {
     width: 330px !important;
   }
+  .thank {
+    margin-top: 15px;
+  }
   .thank .content {
     width: 345px !important;
     padding: 37px 5px 24px 5px !important;

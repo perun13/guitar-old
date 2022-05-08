@@ -673,6 +673,9 @@ body {
   .box_2 .left .item .text h3 {
     font-size: 16px;
   }
+  .box_2 .left .item .text p {
+    width: 165px;
+  }
   .box_2 .left .item .amount {
     position: relative;
     top: -210px;
@@ -718,6 +721,7 @@ body {
   }
   .box_2 .left .item .text p {
     font-size: 10px;
+    width: 165px;
   }
   .box_2 .left .item .amount {
     top: -155px;
