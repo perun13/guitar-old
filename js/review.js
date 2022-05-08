@@ -174,3 +174,18 @@ searchBtn.onclick = () => {
 closeSearchForm.onclick = () => {
     searchForm.classList.remove('__active');
 }
+
+
+
+
+
+
+
+
+
+
+let logoMain = document.querySelector('#logo_main');
+
+logoMain.onclick = () => {
+    window.location.href = 'https://perun13.github.io/guitar/';
+};
