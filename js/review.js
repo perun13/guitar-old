@@ -24,17 +24,25 @@ new Swiper('.swiper-2', {
         prevEl: '.swiper-button-prev',
     },
 
-    slidesPerView: 3,
-    spaceBetween: 12,
-    slidesPerGroup: 3,
+
 
     autoplay: {
         delay: 6000,
     },
 
 
+    spaceBetween: 12,
+
 
     breakpoints: {
+        1440: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+        },
+        1024: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+        },
         768: {
             slidesPerView: 2,
             slidesPerGroup: 2,

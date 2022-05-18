@@ -16,6 +16,10 @@ new Swiper('.swiper-2', {
     spaceBetween: 25,
     slidesPerGroup: 3,
 
+    autoplay: {
+        delay: 6000,
+    },
+
 });
 
 

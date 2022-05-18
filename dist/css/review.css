@@ -29,6 +29,10 @@ body {
           align-items: center;
 }
 
+.box_1 img {
+  cursor: pointer;
+}
+
 .box_1 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -661,6 +665,10 @@ body {
   }
   .box_3 .content .swiper-2 {
     width: 330px !important;
+    height: 285px;
+  }
+  .box_3 .content .swiper-2 .swiper-pagination {
+    bottom: 45px;
   }
 }
 
@@ -679,6 +687,9 @@ body {
   }
   .box_2 .content .add_comment #comment {
     width: 320px;
+  }
+  .box_3 {
+    margin-top: 215px;
   }
   .box_3 .content .title {
     width: auto;

@@ -36,6 +36,10 @@
   padding-right: 10px;
 }
 
+.search_form .close_form_search {
+  cursor: pointer;
+}
+
 .search_form .close_form_search .top {
   width: 20px;
   height: 3px;

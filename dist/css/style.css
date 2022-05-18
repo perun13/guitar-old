@@ -13,6 +13,14 @@ body {
   background: #242424;
 }
 
+body a {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -33,6 +41,10 @@ html {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+}
+
+.box_1 img {
+  cursor: pointer;
 }
 
 .box_1 .logo_phone {
@@ -668,10 +680,6 @@ nav .nav a {
   margin-right: 60px;
 }
 
-.box_6 .content .arrow_up a {
-  scroll-behavior: smooth;
-}
-
 .box_6 .content .arrow_up .arrow-top {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -869,6 +877,7 @@ nav .nav a {
 
 .box_7 .form .input_part .btn_inp {
   z-index: 4;
+  cursor: pointer;
 }
 
 .box_7 .form a {

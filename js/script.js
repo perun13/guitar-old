@@ -66,7 +66,7 @@ let btnBack = document.querySelector('.arrow_up');
 
 
 btnBack.onclick = () => {
-    window.scrollTo(0, -1000)
+    window.scrollTo(0, 0)
 };
 
 

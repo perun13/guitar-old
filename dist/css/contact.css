@@ -29,6 +29,10 @@ body {
           align-items: center;
 }
 
+.box_1 img {
+  cursor: pointer;
+}
+
 .box_1 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
