@@ -128,23 +128,42 @@ follow.onclick = () => {
 
 
 
+let goods = document.querySelectorAll('.item_goods');
+console.log(goods);
 
-
-
-let searchText = document.querySelector('#search_input');
-let searchForm = document.querySelector('.search_form');
-let closeSearchForm = document.querySelector('.close_form_search');
-let searchBtn = document.querySelector('#search');
-
-
-
-searchBtn.onclick = () => {
-    searchForm.classList.toggle('__active');
+window.onload = () => {
+    for (let i = 0; i <= goods.length; i++) {
+        goods[i].onclick = function () {
+            window.location.href = 'https://perun13.github.io/guitar/tovar';
+        }
+    }
 };
 
-closeSearchForm.onclick = () => {
-    searchForm.classList.remove('__active');
-};
+let goodsSecond = document.querySelectorAll('.item_goods_second');
+console.log(goodsSecond)
+
+window.onload = () => {
+    for (let i = 0; i <= goodsSecond.length; i++) {
+        goodsSecond[i].onclick = function () {
+            window.location.href = 'https://perun13.github.io/guitar/tovar';
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

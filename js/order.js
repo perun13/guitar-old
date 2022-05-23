@@ -174,3 +174,38 @@ let logoMain = document.querySelector('#logo_main');
 logoMain.onclick = () => {
     window.location.href = 'https://perun13.github.io/guitar/card';
 };
+
+
+
+let firstItem = document.querySelector('#firstItem');
+let secondItem = document.querySelector('#secondItem');
+let thirdItem = document.querySelector('#thirdItem');
+let fourItem = document.querySelector('#fourItem');
+
+firstItem.onclick = () => {
+    firstItem.classList.toggle('__active');
+    secondItem.classList.remove('__active');
+    thirdItem.classList.remove('__active');
+    fourItem.classList.remove('__active');
+}
+
+secondItem.onclick = () => {
+    firstItem.classList.remove('__active');
+    secondItem.classList.toggle('__active');
+    thirdItem.classList.remove('__active');
+    fourItem.classList.remove('__active');
+}
+
+thirdItem.onclick = () => {
+    firstItem.classList.remove('__active');
+    secondItem.classList.remove('__active');
+    thirdItem.classList.toggle('__active');
+    fourItem.classList.remove('__active');
+}
+
+fourItem.onclick = () => {
+    firstItem.classList.remove('__active');
+    secondItem.classList.remove('__active');
+    thirdItem.classList.remove('__active');
+    fourItem.classList.toggle('__active');
+}

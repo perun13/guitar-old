@@ -873,6 +873,7 @@ nav .nav a {
   -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.9);
           box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.9);
   z-index: 1;
+  padding-right: 10px;
 }
 
 .box_7 .form .input_part .btn_inp {

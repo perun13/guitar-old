@@ -178,6 +178,7 @@ body {
           align-items: flex-start;
   margin-right: 23px;
   margin-bottom: 38px;
+  cursor: pointer;
 }
 
 .order .left .delivery .item_list .item h2 {
@@ -355,8 +356,8 @@ body {
   width: 490px;
 }
 
-.order .left .pay .item_list #pay_first {
-  border: 2px solid #EA8305;
+.order .left .pay .item_list .__active {
+  border: 2px solid #EA8305 !important;
 }
 
 .order .left .pay .item_list .item {
@@ -381,6 +382,7 @@ body {
           align-items: flex-start;
   margin-right: 23px;
   margin-bottom: 26px;
+  cursor: pointer;
 }
 
 .order .left .pay .item_list .item h2 {
