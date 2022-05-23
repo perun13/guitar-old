@@ -62,3 +62,13 @@ logoMain.onclick = () => {
     window.location.href = 'https://perun13.github.io/guitar/';
 };
 
+
+
+document.querySelector('.remove_goods').onclick = () => {
+    document.querySelector('#secondGoods').classList.toggle('__active');
+};
+
+document.querySelector('.remove_goods_1').onclick = () => {
+    document.querySelector('#item').classList.toggle('__active');
+}
+

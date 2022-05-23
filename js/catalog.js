@@ -139,16 +139,18 @@ window.onload = () => {
     }
 };
 
-let goodsSecond = document.querySelectorAll('.item_goods_second');
-console.log(goodsSecond)
 
-window.onload = () => {
-    for (let i = 0; i <= goodsSecond.length; i++) {
-        goodsSecond[i].onclick = function () {
-            window.location.href = 'https://perun13.github.io/guitar/tovar';
-        }
-    }
-}
+
+// let goodsSecond = document.querySelectorAll('.item_goods_second');
+// console.log(goodsSecond)
+
+// window.addEventListener = () => {
+//     for (let i = 0; i <= goodsSecond.length; i++) {
+//         goodsSecond[i].onclick = function () {
+//             window.location.href = 'https://perun13.github.io/guitar/tovar';
+//         }
+//     }
+// }
 
 
 

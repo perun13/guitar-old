@@ -20,6 +20,7 @@
   width: 0;
   height: 0;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .search_form input {

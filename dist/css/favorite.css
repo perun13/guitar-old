@@ -121,6 +121,10 @@ body {
   font-size: 14px;
 }
 
+.box_2 .__active {
+  display: none !important;
+}
+
 .box_2 .item {
   display: -webkit-box;
   display: -ms-flexbox;
