@@ -19,6 +19,12 @@ new Swiper('.swiper-2', {
 
 
     breakpoints: {
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            slidesPerGroup: 4,
+        },
+
         768: {
             slidesPerView: 2,
             slidesPerGroup: 2,
