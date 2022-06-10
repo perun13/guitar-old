@@ -472,6 +472,9 @@ body {
     color: white;
     margin-bottom: 10px;
   }
+  .box_1 .nav_burger._active .small .main {
+    color: #EA8305;
+  }
   .box_2 .item {
     width: 700px;
   }
