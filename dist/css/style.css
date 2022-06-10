@@ -1500,8 +1500,9 @@ nav .nav a {
     font-size: 36px;
   }
   .box_7 .form .input_part input {
-    width: 240px;
-    padding-right: 25px;
+    width: 224px;
+    padding-right: 19px;
+    margin-right: 15px;
   }
   .box_7 .form .input_part img {
     margin-left: -35px;
