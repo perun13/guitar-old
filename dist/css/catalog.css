@@ -1092,7 +1092,7 @@ body {
 }
 
 @media (max-width: 375px) {
-  .box_2 .right .item_list .item {
+  .box_2 .right .item_list .item_goods {
     width: 165px;
   }
   .box_3 .content img {
@@ -1102,9 +1102,13 @@ body {
     margin-left: -340px;
     margin-top: 283px;
   }
+  .box_3 .content .main h1 {
+    margin-top: -215px;
+  }
   .box_3 .content .main iframe {
     width: 283px;
     height: 173px;
+    margin-top: -16px;
   }
   .box_3 .content .main iframe h1 {
     margin-top: -204px;

@@ -10,7 +10,50 @@ more_btn.onclick = () => {
 
 
 
+const isMobile = {
+    Android: function () {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function () {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function () {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function () {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function () {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function () {
+        return (
+            isMobile.Android()
+            || isMobile.BlackBerry()
+            || isMobile.iOS()
+            || isMobile.Opera()
+            || isMobile.Windows()
+        );
+    }
+};
 
+if (isMobile.any()) {
+    document.body.classList.add('_touch');
+} else {
+    document.body.classList.add('_pc');
+}
+
+const headerBurger = document.querySelector('.header_burger');
+const navBurger = document.querySelector('.nav_burger');
+if (headerBurger) {
+
+    headerBurger.addEventListener("click", function (e) {
+        document.body.classList.toggle('_lock');
+        headerBurger.classList.toggle('_active');
+        navBurger.classList.toggle('_active');
+        headerBurger.style.display = "fixed";
+    });
+};
 
 
 
@@ -72,3 +115,30 @@ document.querySelector('.remove_goods_1').onclick = () => {
     document.querySelector('#item').classList.toggle('__active');
 }
 
+
+
+
+
+
+
+
+
+
+let btnServices = document.querySelector('.btn_services');
+let serviceForm = document.querySelector('.services');
+let closeServices = document.querySelector('#close_services');
+let openForm = document.querySelector(".open_form");
+let servicesRight = document.querySelector('#services_right');
+
+btnServices.onclick = () => {
+    serviceForm.classList.toggle('__active');
+};
+
+closeServices.onclick = () => {
+    serviceForm.classList.remove('__active');
+    servicesRight.classList.remove('__active');
+};
+
+openForm.onclick = () => {
+    servicesRight.classList.toggle('__active');
+};

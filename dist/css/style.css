@@ -1501,6 +1501,7 @@ nav .nav a {
   }
   .box_7 .form .input_part input {
     width: 240px;
+    padding-right: 25px;
   }
   .box_7 .form .input_part img {
     margin-left: -35px;

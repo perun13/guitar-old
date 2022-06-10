@@ -143,6 +143,9 @@ body {
 
 .box_2 .text .nav a {
   color: #A1A0A3;
+  text-decoration: none;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 10px;
 }
 
 .box_2 .text .nav .back {
